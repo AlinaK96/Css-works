@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Интернет-магазин</title>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        p{
+            font-family: 'Raleway', sans-serif;
+            color: darkviolet;
+        }
+    </style>
+    <h1>Связаться с нами!</h1>
+    <form id="feedback">
+        <div class="field">
+            <label for="lastname">Фамилия:</label>
+            <input id="lastname" type="text" name="lastname" placeholder="">
+        </div>
+        <div class="field">
+            <label for="firstname">Имя:</label>
+           <input id="firstname" type="text" name="firstname" placeholder="">
+        </div>
+        <div class="field">
+            <label for="patronymic">Отчество:</label>
+           <input id="patronymic" type="text" name="patronymic" placeholder="">
+        </div>
+        <p>Тема сообщения:</p>
+        <select name="Reason" id="topic">
+            <option value="1">Предложение</option>
+            <option value="2">Проблема</option>
+            <option value="3">Жалоба</option>
+            </select>
+        <p>Получить ответ по email</p>
+        <div>
+            <input type="checkbox" id="email">
+            <label for="email">Получить ответ по email</label>
+            <p></p>
+            <input type="submit" value="Отправить сообщение" id="send">
+            <input type="reset" value="Очистить форму" id="clear">  
+        </div>
+    </form>
+</body>
+</html>
