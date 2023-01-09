@@ -8,26 +8,104 @@ body{
 }
 
 .header-title{
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-    background: #4E3835;
+    
+    position: absolute;
+    width: 1440px;
+    height: 155px;
+    left: 0px;
+    top: 0px;
+
+    background: #4E3835
 
 }
 .title {
+    position: absolute;
+    width: 211px;
+    height: 56px;
+    left: 614px;
+    top: 49px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #E6D5B9;
+}
+
+.header-image {    
+    height: 700px;
+    width: 1164px;
+    background:     url("https://source.unsplash.com/XtUd5SiX464/1920x1080");
+    position: center;
+    background-size: cover;
+
 
 }
 
-.header-image {    height: 700px;
-
-}
-
-.join-title{
+.join{
     margin-bottom: 34px;
+    width: 1439px;
+    height: 334px;
+    left: 0px;
+    top: 854px;
+    background: #4E3835;
+  
+}
+
+.join-message{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #E6D5B9;  
 }
 .join-text{
 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #E6D5B9;
 }
 .email{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
 
+.join-text1{
+    margin-bottom: 55px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: left;
+
+    color: #000000;
+}
+
+.link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: left;
+
+    color: #4E3835;
 }
