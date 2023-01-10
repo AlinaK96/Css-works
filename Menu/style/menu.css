@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+
+    position: relative;
+    height: 100px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(129, 129, 129, 0.25);
+
+}
+
+.menu{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.link{
+
+    width: 70px;
+    height: 20px;
+    left: 40px;
+    top: 40px;
+    margin: 40px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    letter-spacing: -0.015em;
+    text-transform: capitalize;
+    
+    color: black;
+}
+
+.link:hover{
+    color: #05A88D;
+}
+
+.logo{
+    position: absolute;
+    width: 167px;
+    height: 29px;
+    left: 636px;
+    top: 35px;
+    margin-bottom:  36px;;
+
+   
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    text-decoration: none;
+
+    color: #05A88D;
+}
+
+.logo:hover{
+    text-decoration: underline;
+    text-decoration: solid;
+    color:rgb(13, 114, 125);
+}
+.sign-up{
+
+    width: 62px;
+    height: 20px;
+    left: calc(50% - 62px/2 + 482.5px);
+    top: calc(50% - 20px/2 - 0.5px);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    margin-top: 39,5px;
+    margin-bottom: 28px;
+    margin-left: 368,5px;
+
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 105px;
+    height: 45px;
+    left: 1150px;
+    top: 27px;
+    color:black;
+
+  
+}
+
+.sign-up:hover{
+    color: #05A88D;
+    margin: 12,5 21,5px;
+    text-align: center;
+    
+    box-sizing: border-box;
+
+
+    width: 105px;
+    height: 45px;
+    left: 1150px;
+    top: 27px;
+
+    border: 1px solid #05A88D;
+    border-radius: 3px;
+
+
+
+    
+}
+.log-in{
+    position: absolute;
+    width: 45px;
+    height: 20px;
+    left: 1324.5px;
+    top: calc(50% - 20px/2 - 0.5px);
+    margin-top: 39,5px;
+    margin-left: 50,5px;
+    margin-bottom: 40,5px;
+    margin-right: 91px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+
+    color: black;
+}
+
+.log-in:hover{
+    color: #05A88D;
+}
