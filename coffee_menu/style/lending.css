@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px ;
+    height: 110px;
+
+    text-transform: uppercase;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu__logo {
+    width: 33%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+}
+.menu__ul {
+    list-style: none;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.main {
+    height: 100%;
+}
+.main__container {
+    background-image: url("https://images.unsplash.com/photo-1494415859740-21e878dd929d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__container__text {
+    /*display: flex;
+    align-items: center;
+    margin: 0 auto;*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 89px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.main__container__line {
+    width: 80px;
+    height: 10px;
+    background: #817070;
+    margin-top: 7px;
+}
+
+.main__story {
+    padding: 60px 80px;
+    background-color: #FFFFFF;
+}
+
+.main__story__h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.main__story__content {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.main__story__img {
+    width: 48%;
+
+}
+
+.main__story__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    padding-left: 40px;
+    width: 597px;
+
+
+}
+
+img {
+    width: 45%;
+}
+
+.main__blog {
+    padding: 60px 102px 65px ;
+    background-color: #EFEFEF;
+
+}
+
+.main__blog__h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.main__blog__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog {
+    background-color: #FFFFFF;
+    width: 27%;
+    padding: 20px 20px 46px;
+}
+
+.main__blog__h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+
+.main__blog__img{
+    width: 100%;
+}
+
+.mar {
+    margin-bottom: 24px;
+}
+
+.main__blog__p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.footer__content {
+
+    background: #817070;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    padding: 60px;
+
+}
+
+.footer__content__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.footer__end__content {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+.footer__end {
+    background-color: #FFFFFF;
+    padding: 20px;
+
+}
+
+.footer__content__email {
+
+    background-color: #817070;
+    border: 3px solid #FFFFFF;
+    width: 300px;
+    height: 55px;
+
+}
+
+.footer__content__email::placeholder {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.footer__content__btn {
+    width: 129px;
+    height: 55px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+
+
+    color: #817070;
+}
+
+.wid {
+    margin-bottom: 28px;
+}
