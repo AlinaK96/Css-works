@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Это обычный HTML файл</p>
+
+    <script>
+
+        let year = prompt("Какой сейчас год?")
+        if (year == 2023){
+            alert ("Здорово!");
+        } else {
+            alert ("Вы уверены?");
+        }
+        let p = prompt ("Введите имя");
+        alert (p);
+        let n = parseInt(prompt ("Введите число"));
+        alert (n+5);
+    </script>
+
+    <p>
+        let age = prompt("Сколько вам лет")
+        let accessAllowed = (age > 18)? true:false;
+    </p>
+
+    <p>
+        function showMessage() 
+        {
+            alert ("Hello!");
+        }
+
+        showMessage();
+
+        function sum(a,b){
+            return a + b;
+        }
+    </p>
+</body>
+</html>
