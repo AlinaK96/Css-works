@@ -4,27 +4,27 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="form.css">
-    <title>Simple form</title>
+    <title>Questionary</title>
   </head>
    <body>
      <form>
        <fieldset class="formquestion">
          <legend>Общая информация</legend>
-         <div class="field">
+         <div class="field"><p>
            <label for="surname">Фамилия:</label>
-           <input id="surname" type="text" name="surname" placeholder="Иванов">
+           <input id="surname" type="text" name="surname" placeholder="Иванов"></p>
          </div>
          
          
-         <div class="field">
+         <div class="field"><p>
            <label for="name">Имя:</label>
-           <input id="name" type="text" name='name'placeholder = "Иван">
+           <input id="name" type="text" name='name'placeholder = "Иван"></p>
          </div>
          
          
-         <div class="field">
+         <div class="field"><p>
            <label for="secondname">Отчество:</label>
-           <input id="secondname" type="text" name='secondname'placeholder = "Иванович">
+           <input id="secondname" type="text" name='secondname'placeholder = "Иванович"></p>
          </div>
          
          <div class="field">
@@ -58,9 +58,11 @@
          <label for="choice4">Кулинария</label>
        </fieldset>
      </form>
-     <div class="btn">
-        <button type="submit" formmethod="post" value="send">Отправить</button>
-        <button type="reset" value="clear">Очистить</button>
-    </div>
+     <p>
+      <div>
+          <input type="submit" value='Отправить' id="send">
+          <input type="reset" value="Очистить" id="clear">
+      </div>
+  </p>
    </body>
 </html>
