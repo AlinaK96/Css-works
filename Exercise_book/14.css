@@ -1,0 +1,47 @@
+body{
+    background-image:url(https://img-fotki.yandex.ru/get/67890/136164467.17/0_12bc81_21263ac1_orig.png);
+}
+
+#centered{
+    width: 200px;
+    height: 120px;
+    margin: 10% auto;
+   text-align: center;
+}
+
+#first-capital::first-line{
+    color:blue;
+}
+#first-capital::first-letter{
+    color:red;
+    font-size: 30px;
+}
+
+.task-pos{
+    width: 350px;
+    height: 120px;
+    margin: 10% auto;
+}
+
+#capital-green{
+    color:forestgreen;
+    font-size: 33px;
+    margin-bottom: 5px;
+}
+
+#sub-paragraph{
+    color:darkolivegreen;
+    font-size: 25px;
+    margin-top: -6px;
+}
+
+#second-task{
+    text-align: justify;
+    margin-top: -8px;
+}
+
+#ex6{
+    color:blueviolet;
+    margin-left: 40px;
+    margin-bottom: -5px;
+}

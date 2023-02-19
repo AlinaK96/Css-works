@@ -1,0 +1,30 @@
+.project-block{
+    border-left: 2px solid grey;
+    width: 500px;
+    padding: 2px 30px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.command{
+    background-color: #F6F5F3;
+    border: 1px solid #CBCBCB;
+    font-family:sans-serif ;
+    font-size: 13px;
+    height: 35px;
+    padding: 2px;
+}
+
+.blue{
+    color:blue;
+}
+
+#grey-link{
+    color: grey;
+    font-style: italic ;
+}
+
+.scrollable {
+    white-space: nowrap;
+    overflow-x: scroll; 
+}
