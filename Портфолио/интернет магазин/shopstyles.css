@@ -1,0 +1,73 @@
+.goods{
+    height: 400px;
+    border: 1px solid purple;
+}
+
+body{
+    background-color:   #f8f8f8;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    color: cornflowerblue;
+}
+
+.main{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
+    color: cornflowerblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+a:visited{
+    color: blue;
+    text-decoration: none;
+}
+.infoinput{
+    height: 15px;
+    width: 250px;
+    padding-bottom: 20px;
+}
+
+.button{
+    height: 30px;
+    width: 100px;
+}
+
+h2{
+    color:black;
+    font-weight: 400;
+    line-height: 16px;
+    background-color: #eaeaea;
+}
+
+h4{
+    color:black;
+    font-weight: 400;
+    line-height: 16px;
+    background-color: #eaeaea;
+}
+
+
+.shortinfo{
+    color:  #707070;
+    font: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.goodinfo{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.complex{
+    list-style-type: square;
+}

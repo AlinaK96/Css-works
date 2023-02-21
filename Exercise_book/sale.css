@@ -1,0 +1,38 @@
+.main {
+	width: 500px;
+	height: 200px;
+	font: bold 20px arial, sans-serif;
+}
+.title {
+	color: black;
+}
+.clock {
+	float: left;
+	width: 20px;
+	height: 20px;
+	padding-right: 20px;
+}
+.red {
+	color: red;
+	font-size: 23px;
+}
+.title2 {
+	padding-top: 20px;
+}
+.border {
+	padding-top: 20px;
+	line-height: 0px;
+	width: 120px;
+	height: 60px;
+	text-align: center;
+	margin-top: -70px;
+	float: right;
+	border: 2px dotted  #8B0000;
+	border-radius: 10px;
+}
+.big {
+	margin-top: 35px;
+	text-align: center;
+	color: red;
+	font-size: 45px;
+}
