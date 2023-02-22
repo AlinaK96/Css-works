@@ -1,58 +1,123 @@
-.goods{
-    height: 400px;
-    border: 1px solid purple;
+body{
+    background-color: white;
+
 }
 
-body{
-    background-color:   #f8f8f8;
+.main-body{
+    width: 1300px;
+    margin: auto;
 }
 
 a{
     text-decoration: none;
 }
 
+a.link:hover{
+    color: black;
+}
+
 .header{
-    color: cornflowerblue;
+
+    position: relative;
+    height: 100px;
+    background:white;
+
 }
 
-.main{
-    list-style-type: none;
-    display: inline-block;
-    margin-right: 50px;
-    color: cornflowerblue;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 600;
-}
+.logo{
+    position: absolute;
+    width: 167px;
+    height: 29px;
+    left: 636px;
+    top: 35px;
+    margin-bottom:  36px;;
 
-a:visited{
-    color: blue;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
     text-decoration: none;
-}
-.infoinput{
-    height: 15px;
-    width: 250px;
-    padding-bottom: 20px;
+    color: #05A88D;
 }
 
-.button{
-    height: 30px;
-    width: 100px;
+a.logo:hover{
+    color: darkblue;
 }
+
+.logo:visited{
+    color: #05A88D;
+}
+
+.menu{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    width: 130px;
+    height: 40px;
+    left: 20px;
+    top: 40px;
+    margin: 22px;
+    
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #05A88D;
+}
+
+.link-back{
+    width: 130px;
+    height: 40px;
+    left: 20px;
+    top: 40px;
+    margin: 22px;
+
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #05A88D;}
+
+.link:visited, .link-back:visited{
+    color:#05A88D;
+}
+
+
+
+a.goods:hover{
+    background-color: #05A88D;
+}
+
+
+
 
 h2{
     color:black;
     font-weight: 400;
     line-height: 16px;
-    background-color: #eaeaea;
+    margin-left: 30px;
 }
 
 h4{
     color:black;
     font-weight: 400;
     line-height: 16px;
-    background-color: #eaeaea;
-}
+    margin-left: 30px;
+    font-size: 20px;
 
+}
 
 .shortinfo{
     color:  #707070;
@@ -62,12 +127,164 @@ h4{
 }
 
 .goodinfo{
-    color: #484343;
+
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 22px;
 }
 
-.complex{
+.complectation{
     list-style-type: square;
 }
+
+.goods{
+    height: 340px;
+    border: 2px solid #05A88D;
+    float: left;
+}
+
+.description{
+    overflow: hidden;
+    text-align: justify;
+    padding-left: 20PX; 
+    color: black;  
+    margin-top: -20px;  
+}
+
+.purchase{
+    height: 35px;
+    width: 100px;
+    background-color: #05A88D;
+    border: transparent;
+    margin-left: 125px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.purchase:hover{
+    background-color: #bcefe6;
+}
+
+.goods:hover{
+    border-color: transparent;
+}
+
+/*Contacts*/ 
+
+.infoinput{
+    height: 15px;
+    width: 250px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+#textcontact{
+    text-transform: capitalize;
+}
+
+#map{
+    width: 100%;
+    height: 374px;
+}
+
+.button{
+    height: 30px;
+    width: 100px;
+}
+
+.button:hover{
+    background-color: #05A88D;
+    border:transparent;
+}
+
+.footer{
+    height: 80px;
+    background-color: #bcefe6;
+
+}
+
+.rights{
+    text-align: right;
+    font-weight: 500;
+    margin-right: 25px;
+    padding-top: 15px;
+}
+
+.goods-li{
+    border: 1px solid black;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+}
+
+.goods-li-main{
+    border: 1px solid black;
+    font-weight: 500;
+    width: 200px;
+    height: 25px;
+    font-weight: 800;
+}
+
+.feature-col{
+    border-collapse: collapse;
+    margin-left: 5px;
+}
+
+.catalog{
+    height: 600px;
+    width: 1300px;
+    margin: auto;
+
+
+
+}
+
+.object{
+    width: 30%;
+
+}
+
+.catalog-photo{
+    height: 250px;
+    border: 2px solid #05A88D;
+    float: left;
+    margin-right: 7px;
+}
+
+
+
+
+
+.catalogProductsWrap:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.catalogProductUnit {
+    width: 30%;
+    float: left;
+    margin-right: 4%;
+    margin-top: 15px;
+    outline: 1px solid #05A88D;
+    text-align: center;
+}
+
+.catalogProductUnit:nth-child(n+4) {
+    margin-top: 35px;
+}
+
+.catalogProductUnit:nth-child(3n) {
+    margin-right: 0;
+}
+
+
+
+.catalogImg {
+    width: 90%;
+    height: 350px;
+    display: block;
+    padding-left: 5%;
+}
+
+

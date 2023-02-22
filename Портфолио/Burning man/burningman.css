@@ -1,0 +1,43 @@
+.mainpage{
+    position: absolute;
+    width: 1600px;
+    height: 900px;
+    left: 0px;
+    top: 0px;    
+    background: linear-gradient(105.89deg, rgba(0, 0, 0, 0.37) 5.05%, rgba(0, 0, 0, 0.15) 112.97%);
+    background-image: url(./images/header-bg.png);
+    background-repeat: no-repeat;
+}
+
+.logo{
+    position: absolute;
+    width: 31px;
+    height: 48px;
+    left: 216px;
+    top: 57px;
+}
+
+.menu{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    width: 70px;
+    height: 20px;
+    left: 40px;
+    top: 40px;
+    margin: 40px;
+    
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #05A88D;
+}
