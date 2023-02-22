@@ -1,0 +1,675 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 6034px;
+
+    background: #FFFFFF;
+}
+
+.navigation{
+    position: absolute;
+    height: 100px;
+    left: 0%;
+    right: 0%;
+    top: 16px;
+    border: 1px solid transparent;
+}
+
+.main-menu{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.main-menu-list{
+    position: absolute;
+    height: 32px;
+    width: 564.59px;
+    border: 1px silid black;
+    top: 40px;
+    display: flex;
+    text-align: justify;
+}
+
+.li-style{
+    margin-left: 45px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+
+    letter-spacing: 1.575px;
+    text-transform: uppercase;
+
+    color: #56593D;
+}
+
+.logo{
+    position: absolute;
+    height: 26px;
+    left: 46.84%;
+    right: 46.84%;
+    top: 32px;
+
+    border-radius: 0px;
+}
+
+.profile{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1224px;
+    top: 32px;
+}
+
+.search{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1276px;
+    top: 32px;
+
+}
+
+.bag{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1329px;
+    top: 32px;
+}
+
+.container-front-page{
+    position: absolute;
+    height: 732px;
+    width: 1360px;
+    left: 1.18%;
+    right: 1.18%;
+    top: 15.5px;
+    background-color: beige;
+    top:126px;
+    left: 40px;
+}
+
+#background{
+    position: absolute;
+    height: 700px;
+    width: 1328px;
+    margin: 16px; 
+    right: 0%;
+    top: 0.5px;
+
+    background: url(./images/front-backfround.png);
+    border-radius: 0px;
+}
+
+.main-content{
+    position: absolute;
+    height: 572px;
+    left: 4.82%;
+    right: 4.82%;
+    top: 64px;
+    border: transparent;
+}
+
+#text1{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1.7999999523162842px;
+    color: #56593D;
+    height: 22px;
+    width: 190px;
+    margin-top:  399px;
+    margin-left: 1010px;
+}
+
+#text2{
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: right;
+    color:  #56593D;
+    margin-top: 10px;
+}
+
+#click{
+    position: relative;
+    height: 56px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    height: 56px;
+    width: 154px;
+    margin-left: 1046px;
+    top: 26px;
+    
+    background: #56593D;
+    border-radius: 0px;
+}
+
+#shop{
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 55px;
+
+    color: #FFFFEF;
+    text-decoration: none;
+    margin-left: 12px;
+
+
+
+}
+
+.intro{
+
+    position: absolute;
+    height: 302px;
+    width: 1360px;
+    left: 40px;
+    right: 40px;
+    top: 946px;
+}
+
+#intro-text{
+    position: absolute;
+    width: 1194px;
+    height: 243px;
+    left: calc(50% - 1194px/2);
+    top: 6.5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 81px;
+
+    text-align: center;
+    color: #56593D;
+
+}
+
+#littleLink1{
+
+    position: absolute;
+    width: 103px;
+    height: 22px;
+    top: 227px;
+    left: 318px;
+}
+
+#littleLink2{
+
+    position: absolute;
+    width: 150px;
+    height: 22px;
+    top: 227px;
+    left: 500px;
+}
+
+.crossLink{
+    font-family: Roboto;
+    color: #56593D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 1.600000023841858px;
+
+}
+.collection{
+    position: absolute;
+    width: 1360px;
+    height: 725px;
+    left: 40px;
+    right: 40px;
+    top: 1336px;
+    background: #FFFFEF;
+}
+
+#frame{
+    position: absolute;
+    height: 609.66px;
+    left: 0%;
+    right: 0%;
+    top: 63.5px;
+}
+
+#collection-name{
+    height: 33px;
+    width: 254px;
+    margin-left: 553px;
+    margin-top: -0.5px;
+
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #56593D;
+
+}
+
+#product1{
+    position: absolute;
+    height: 481px;
+    padding-left: 30px;
+    right: 66.67%;
+    top: 64px;
+    text-align: center;
+    color:#717353;
+    margin: 0px;
+}
+
+#product2{
+    position: absolute;
+    height: 481px;
+    padding-left: 30px;
+    right: 33.33%;
+    top: 64px;
+    text-align: center;
+    color:#717353;
+    letter-spacing: 1.6200000047683716px;
+    margin: 0px;
+}
+
+#product3{
+    position: absolute;
+    height: 481px;
+    padding-left: 30px;
+    right: 0%;
+    top: 64px;
+    text-align: center;
+    color:#717353;
+    letter-spacing: 1.6200000047683716px;
+    margin: 0px;
+}
+
+.info{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #56593D;
+    letter-spacing: 1.6200000047683716px;
+    margin: 0px;
+}
+
+.minimalism{
+    position: absolute;
+    height: 732px;
+    left: 2.25%;
+    right: 2.25%;
+    top: 2097px;
+}
+
+#mini{
+    position: absolute;
+    height: 700px;
+    left: 1.18%;
+    right: 1.18%;
+    top: 16.16px;
+    position: absolute;
+
+    background: url(./images/minimalism.png);
+}
+
+#mini-description{
+    position: absolute;
+    height: 572px;
+    left: 4.82%;
+    right: 4.82%;
+    top: 64px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1.7999999523162842px;
+    text-align: center;
+    color:#56593D;
+}
+
+#extra{
+    position: absolute;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#56593D;
+
+    height: 121px;
+    width: 1093px;
+    margin-left: 118px;
+    margin-right: 118px;
+    top: 30.84375px;
+    border-radius: nullpx;
+}
+
+.history{
+    position: absolute;
+    height: 746px;
+    left: 2.25%;
+    right: 2.25%;
+    top: 2853px;
+    background: #FFFFEF;
+}
+
+.history-body{
+    position: absolute;
+    height: 618.25px;
+    left: 0%;
+    right: 2.35%;
+    top: 64.16px;
+}
+
+#pic{
+    position: absolute;
+    height: 618px;
+    left: 2.41%;
+    right: 41.64%;
+    top: -0.16px;
+    background: url(./images/cutlery.png);
+}
+
+#cutlery-text{
+    position: absolute;
+    height: 391px;
+    left: 60.74%;
+    right: 0%;
+    top: 0px;
+}
+
+#extrahead{
+    position: absolute;
+    height: 39px;
+    width: 219px;
+    left: 151.34375px;
+    top: 62.84375px;
+
+    font-family: Roboto;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: center;
+    margin: 0px;
+
+    color:#56593D;
+}
+
+#extraText{
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0px;
+
+    color: #56593D;
+
+    position: absolute;
+    height: 227px;
+    width: 347px;
+    left: 87.34375px;
+    top: 167.84375px;
+}
+
+#table{
+    position: absolute;
+    height: 1014px;
+    left: 2.25%;
+    right: 2.25%;
+    top: 3623px;
+    background: #FFFFEF;
+}
+
+#details{
+    position: absolute;
+    height: 885.61px;
+    left: 0%;
+    right: 2.35%;
+    top: 64.41px;
+}
+
+#food-pic{
+    position: absolute;
+    height: 885px;
+    left: 44.05%;
+    right: 0%;
+    top: -0.41px;
+
+    background: url(./images/dish.png);
+}
+
+#food-info{
+    position: absolute;
+    height: 391px;
+    left: 2.41%;
+    right: 58.33%;
+    top: 0px;
+
+}
+
+.foodie{
+    font-family: Roboto;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#56593D;
+
+    position: absolute;
+    height: 39px;
+    width: 277px;
+    left: 121.96875px;
+    top: 62.59375px;
+    margin: 0px;
+}
+
+#foodieText{
+    position: absolute;
+    height: 227px;
+    width: 344px;
+    left: 88.96875px;
+    top: 167.59375px;
+
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0px;
+
+    color:#56593D;
+}
+
+.dash{
+    position: absolute;
+    height: 1px;
+    left: 46.22%;
+    right: 46.1%;
+    top: 133.59px;
+    width: 40px;
+    background: #717353;
+}
+
+#signup{
+    position: absolute;
+    height: 279px;
+    left: 0%;
+    right: 0%;
+    top: 4677px;
+    width: 1328px;
+    margin-left: 56px;
+
+    background: #FFFFEF;
+}
+
+#infoBox{
+    position: absolute;
+    height: 215.19px;
+    left: 2.41%;
+    right: 2.41%;
+    top: 32.02px;
+    margin-top: 0px;
+
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #56593D;
+}
+
+#infoText{
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: absolute;
+    margin: 0px;
+
+    height: 29px;
+    width: 410px;
+    left: 427px;
+    top: 85.984375px;
+    color:#56593D;
+}
+
+#subscribe{
+    position: absolute;
+height: 37px;
+left: 30.22%;
+right: 30.22%;
+top: 146.19px;
+margin-top: 31px;
+}
+
+#sub{
+    position: absolute;
+    width: 339.59px;
+    height: 1px;
+    left: calc(50% - 339.59px/2 - 80.2px);
+    top: calc(50% - 1px/2 + 19px);
+
+    background: #56593D;
+}
+
+#subBut{
+    position: absolute;
+    height: 22px;
+
+    background: #56593D;
+    height: 22px;
+    width: 144px;
+    top: 17px;
+    left:356px;
+}
+
+#subButText{
+    
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 1.600000023841858px;
+    text-align: center;
+    color:#FFFFEF;
+
+    position: absolute;
+    height: 23px;
+    width: 94px;
+    left: 25px;
+    top: 0px;
+}
+
+#moments{
+    position: absolute;
+    height: 520px;
+    left: 2.25%;
+    right: 2.25%;
+    top: 4996px;
+    background: #FFFFEF;
+
+    width: 1360px;
+    left: 32px;
+}
+
+#mome{
+    position: absolute;
+    height: 392px;
+    left: 0%;
+    right: 0%;
+    top: 64.2px;
+
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#56593D;
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+}
+
+#mompics{
+    position: absolute;
+    height: 328px;
+    left: 1.76%;
+    right: 1.76%;
+    top: 64px;
+    background-image: url(./images/moments.png);
+}
+
+.footer{
+    position: absolute;
+    height: 382px;
+    left: 0.56%;
+    right: 0.56%;
+    width: 1424px;
+    left: 8px;
+    border-radius: 0px;
+    top: 5644px;
+
+    background: #717353;
+    border-radius: 0px;
+}
+
+.footer-cont{
+    position: absolute;
+    height: 221px;
+    left: 0%;
+    right: 2.25%;
+    top: 64.2px;
+
+    border: 1px solid yellow;
+}
+
+.column1{
+    position: absolute;
+height: 124px;
+left: 0%;
+right: 75%;
+top: 0px;
+border: 1px solid yellow;
+
+}
+
