@@ -1,0 +1,371 @@
+body{
+    position: relative;
+    width: 1920px;
+    height: 4718px;
+    background: #242B33; 
+    background-repeat: no-repeat;
+}
+
+header{
+    position: absolute;
+    width: 1920px;
+    height: 840px;
+    left: 0px;
+    top: 0px;
+    background-image: url(./images/main-background.png)
+}
+
+.logo{
+    position: absolute;
+    width: 134px;
+    height: 66px;
+    margin-left: 405px;
+    margin-top: 30px;
+
+}
+
+#logo{
+    font-family: 'Post No Bills Jaffna SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #FFFFFF;
+
+    width: 134px;
+    height: 37px;
+    left: 405px;
+    top: 30px;
+    margin: 0px;
+}
+
+#logo-text{
+position: absolute;
+width: 136px;
+height: 14px;
+
+margin: 0px;
+margin-top: 10px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+
+letter-spacing: 0.12em;
+
+color: #FFFFFF;
+}
+
+.navigation{
+    position: absolute;
+    width: 660px;
+    height: 16px;
+    left: 950px;
+    top: 55px;
+}
+
+ul{
+    margin: 0px;
+}
+.menu-li{
+
+    list-style-type: none;
+    margin-right: 40px;
+
+    float: left;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+.menu-li:hover{
+    font-size: 18px;
+
+
+}
+
+#main-page{
+    position: absolute;
+    width: 582px;
+    height: 470px;
+    left: 656px;
+    top: 296px;
+}
+
+#text{
+    position: absolute;
+    margin: 0px;
+    width: 582px;
+    height: 109px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #D4C17F;
+}
+
+#location{
+    position: absolute;
+    width: 21px;
+    height: 27px;
+    top: 440px;
+}
+
+#adress{
+    position: absolute;
+    width: 218px;
+    height: 21px;
+    left: 40px;
+    top: 429px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#phone{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 335px;
+    top: 440px;
+
+}
+
+#phone-number{
+    position: absolute;
+width: 139px;
+height: 21px;
+left: 368px;
+top: 429px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#block1{
+    position: absolute;
+    width: 794px;
+    height: 180px;
+    left: 563px;
+    top: 960px;
+}
+
+#move{
+    padding-right: 75px;
+    padding-left: 40px;
+}
+
+.li-description{
+    float: left;
+    margin: 0px;
+    width: 193px;
+    height: 47px;
+    margin-top: 47px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#five{
+    position: absolute;
+    width: 268px;
+    height: 507px;
+    left: 266px;
+    top: 3419px;
+}
+
+#four{
+    position: absolute;
+    width: 418px;
+    height: 507px;
+    left: 1302px;
+    top: 2697px;
+}
+
+#three{
+    position: absolute;
+    width: 452px;
+    height: 507px;
+    left: 179px;
+    top: 1222px;
+}
+
+#two{
+    position: absolute;
+    width: 301px;
+    height: 507px;
+    left: 1361px;
+    top: 812px;
+}
+
+.appartments{
+    position: absolute;
+    width: 1100px;
+    height: 806px;
+    left: 405px;
+    top: 1260px;
+}
+
+#app-text{
+    position: absolute;
+    width: 292px;
+    height: 36px;
+    top: -35px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+.flats{
+    margin-bottom: 30px;
+    margin-top: 120px;
+    width: 535px;
+    height: 320px;
+    float: left;
+}
+
+.move1{
+    margin-right: 25px;
+    float: left;
+}
+
+#text1{
+    position: absolute;
+    width: 353px;
+    height: 22px;
+    left: 50px;
+    top: 384px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+#text2{
+    position: absolute;
+    width: 353px;
+    height: 22px;
+    left: 615px;
+    top: 384px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+#text3{
+    position: absolute;
+    width: 353px;
+    height: 22px;
+    left: 50px;
+    top: 734px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+#text4{
+    position: absolute;
+    width: 353px;
+    height: 22px;
+    left: 615px;
+    top: 734px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+#cta{
+    position: absolute;
+    width: 1920px;
+    height: 560px;
+    left: 0px;
+    top: 2066px;
+    border: 1px solid white;
+    background-image: url(./images/Rectangle\ \(3\).png);
+}
+
+#left{   
+    position: absolute;
+    width: 380px;
+    height: 36px;
+    left: 405px;
+    padding-top: 145px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+
+    color: #D4C17F;
+}
+
+#bottom{
+    position: absolute;
+    width: 535px;
+    height: 114px;
+    left: 405px;
+    top: 266px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
