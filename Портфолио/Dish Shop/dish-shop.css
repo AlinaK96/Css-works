@@ -47,6 +47,18 @@ body{
     color: #56593D;
 }
 
+.changePage{
+    text-decoration: none;
+    color:#56593D;
+
+}
+
+.changePage:hover{
+    background-color: #56593D;
+    color:white;
+    font-size: 20px;
+}
+
 .logo{
     position: absolute;
     height: 26px;
@@ -156,16 +168,19 @@ body{
 
 #shop{
     font-family: Roboto;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 400;
     line-height: 55px;
 
     color: #FFFFEF;
     text-decoration: none;
+    margin-left: 18px;
+
+}
+
+#shop:hover{
+    font-size: 32px;
     margin-left: 12px;
-
-
-
 }
 
 .intro{
@@ -220,8 +235,14 @@ body{
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 1.600000023841858px;
-
 }
+
+.crossLink:hover{
+    background-color: #56593D;
+    color: white;
+    font-size: 18px;
+}
+
 .collection{
     position: absolute;
     width: 1360px;
@@ -597,6 +618,11 @@ margin-top: 31px;
     top: 0px;
 }
 
+#subButText:hover{
+    font-size: 18px;
+
+}
+
 #moments{
     position: absolute;
     height: 520px;
@@ -659,17 +685,92 @@ p{
     left: 0%;
     right: 2.25%;
     top: 64.2px;
-
-    border: 1px solid yellow;
 }
 
 .column1{
     position: absolute;
-height: 124px;
-left: 0%;
-right: 75%;
-top: 0px;
-border: 1px solid yellow;
+    height: 124px;
+    left: 0%;
+    right: 75%;
+    top: 0px;
+}
 
+.footer-col1{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFEF;
+    margin-left: 32px;
+
+}
+
+.footer15{
+    font-size: 15px;
+}
+
+.column2{
+    position: absolute;
+    height: 221px;
+    left: 27.3%;
+    right: 54.54%;
+    top: 0px;
+}
+
+.column3{
+    position: absolute;
+height: 215px;
+left: 52.3%;
+right: 29.54%;
+top: 0px;
+}
+
+.column4{
+    position: absolute;
+    width: 120px;
+    height: 22px;
+    right: 0px;
+    top: calc(50% - 22px/2 - 91.5px);
+}
+
+.footerPic{
+    left: 22px;
+    top: -1.203125px;
+    border-radius: 0px;
+    margin-left: 17px;
+}
+
+.footer3-li{
+
+    width: 156px;
+    height: 41px;
+    font-size: 15px;
+
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer3-li:hover{
+    font-size: 18px;
+}
+
+.extra3{
+    position: absolute;
+    list-style-type: none;
+    height: 1px;
+    width: 40px;
+    left: 8px;
+    top: 33.796875px;
+
+}
+
+
+.noLine{
+    text-decoration: none;
 }
 
