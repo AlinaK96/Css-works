@@ -334,7 +334,6 @@ color: #FFFFFF;
     height: 560px;
     left: 0px;
     top: 2066px;
-    border: 1px solid white;
     background-image: url(./images/Rectangle\ \(3\).png);
 }
 
@@ -368,4 +367,261 @@ color: #FFFFFF;
     line-height: 24px;
 
     color: #FFFFFF;
+}
+
+#right{
+    position: absolute;
+    width: 540px;
+    height: 135px;
+    left: 975px;
+    top: 245px;
+}
+
+#name{
+    position: absolute;
+    width: 255px;
+    height: 50px;
+    text-align: center;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: white;
+}
+
+#phoneinput{
+    position: absolute;
+    width: 255px;
+    height: 50px;
+    left: 285px;
+
+    text-align: center;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+
+    color: white;
+}
+
+#district{
+    position: absolute;
+    width: 255px;
+    height: 50px;
+    left: 285px;
+    top: 85px;
+    background: #D4C17F;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#district:hover{
+    width: 280px;
+    height: 60px;
+    font-size: 19px;
+}
+
+.text5{
+    position: absolute;
+    width: 255px;
+    height: 28px;
+    top: 85px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #E7E7E7;
+}
+
+#video{
+    position: absolute;
+    width: 719px;
+    height: 650px;
+    left: 595px;
+    top: 2626px;
+
+}
+
+#play-button{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 309px;
+    top: 275px;
+}
+
+#play-button:hover{
+    width: 120px;
+    height: 120px;
+    background-color:white;
+}
+
+.map{
+    position: absolute;
+    width: 1110px;
+    height: 494px;
+    left: 405px;
+    top: 3456px;
+}
+
+#geolocation{
+    position: absolute;
+    width: 292px;
+    height: 36px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+
+    color: #D4C17F;
+}
+
+#map1{
+    position: absolute;
+    top:136px;
+}
+
+.question-form{
+    position: absolute;
+    width: 1115px;
+    height: 136px;
+    left: 400px;
+    top: 4130px;
+
+}
+
+#question{
+    position: absolute;
+    width: 292px;
+    height: 36px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+
+    color: #D4C17F;
+}
+
+
+#yourname{
+    position: absolute;
+    width: 255px;
+    height: 50px;
+    left: 290px;
+    top: 86px;
+
+}
+
+#yourphone{
+    position: absolute;
+    width: 255px;
+    height: 50px;
+    left: 575px;
+    top: 86px;
+}
+
+#watchdistrict{
+    position: absolute;
+    width: 255px;
+    height: 50px;
+    left: 860px;
+    top: 86px;
+    text-decoration: none;
+}
+
+#watchdistrict:hover{
+    width: 270px;
+    height: 60px;
+}
+
+.footer{
+    position: absolute;
+    width: 1920px;
+    height: 272px;
+    left: 0px;
+    top: 4446px;
+}
+
+#right-footer{
+    position: absolute;
+    width: 239px;
+    height: 149px;
+    left: 1276px;
+    top: 72px;
+}
+
+#first-footer{
+    position: absolute;
+    width: 134px;
+    height: 66px;
+    left: 405px;
+    top: 60px;
+}
+
+.middle-footer1{
+    position: absolute;
+    width: 160px;
+    height: 140px;
+    left: 705px;
+    top: 72px;
+}
+
+
+.middle-footer{
+    position: absolute;
+    width: 160px;
+    height: 140px;
+    left: 991px;
+    top: 72px;
+}
+
+.footer-list{
+    width: 135px;
+    height: 16px;
+    margin-bottom: 15px;
+    list-style-type: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-link:hover{
+    font-size: 16px;
+}
+
+.footer-link:visited{
+    color: #FFFFFF;
+}
+
+#credits{
+    color:white;
 }
