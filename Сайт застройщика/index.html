@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/post-no-bills-jaffna" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="housing.css">
+    <title>Main page</title>
+</head>
+<body>
+    <header>
+        <p id="credits">Taken from: <a href="https://www.figma.com/file/E6xNcvoOLUTAW4mK08tMwn5f/Templates-%238.-More-on-Figma.info?node-id=1%3A3&t=TQ3uIB5TOBwNv49j-0">Figma</a></p>
+        <div class="logo">
+            <p>HouseVOP</p>
+            <span>ЖИЛОЙ КОМПЛЕКС</span>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <a href="#" target="_blank"><li>О комплексе</li></a>
+                <a href="#" target="_blank"><li>Район</li></a>
+                <a href="#" target="_blank"><li>Каталог квартир</li></a>
+                <a href="#" target="_blank"><li>Ипотека</li></a>
+                <a href="#" target="_blank"><li>Контакты</li></a>
+            </ul>
+        </nav>
+        <div id="main-page">
+            <p>Жилой комплекс <br>в историческом центре</p>
+            <img src="./images/location.png" id="address" alt="something went wrong">
+            <span>Наб. реки Фонтанки 10-15</span>
+            <img src="./images/phone.png" id="main-phone" alt="something went wrong">
+            <p>8 (812) 123-45-67</p>
+        </div>
+    </header>
+    <div class="container">
+        <div id="block1">
+            <img src="./images/bench.png" alt="something went wrong">
+            <img src="./images/building.png" alt="something went wrong">
+            <img src="./images/fountain.png"  alt="something went wrong">
+            <img src="./images/bicycle.png" alt="something went wrong">
+
+            <p>Рядом исторические <br>парки и скверы</p>
+            <p>Полностью <br>обустроенный</p>
+            <p>10 фонтанов <br>на территории</p>
+            <p>6 км <br> велодорожек</p>
+
+        </div>
+        <div class="numbers">
+            <img src="./images/V.png" alt="something went wrong">
+            <img src="./images/IV.png" alt="something went wrong">
+            <img src="./images/III.png" alt="something went wrong">
+            <img src="./images/II.png" alt="something went wrong">
+        </div>
+        
+        <div class="appartments">
+            <p>Наши квартиры</p>
+                <div id="flexbox">
+                    <div>
+                        <img src="./images/loft1.png" alt="something went wrong">
+                        <span id="text1">Лофт — 3 этажа</span>
+                    </div>  
+                    <div>
+                        <img src="./images/loft2..png" alt="something went wrong">
+                        <span id="text2">Лофт — 2 этажа</span>
+                    </div>
+                    <div>
+                        <img src="./images/loft3.png" alt="something went wrong">
+                        <span id="text3">Лофт — 3 этажа</span>
+                    </div>
+                    <div>
+                        <img src="./images/loft4.png" alt="something went wrong">
+                        <span id="text4">Лофт — 2 этажа</span>
+                    </div>
+                </div>       
+        </div>
+
+        <div id="cta">
+            <div>
+                <p> Хотите посмотреть?</p>
+                <span>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. </span>
+            </div>
+            <div id="right">
+                <input type="text" placeholder="Ваше имя" id="name">
+                <input type="tel" placeholder="Ваш телефон" id="phoneinput">
+                <div class="text5">*Мы никому не передаем ваши данные. 
+                    И не сохраняем ваш номер в базу.</div>
+                <a href="#" target="_blank"><img src="./images/watchdistrict.png" alt="something went wrong"></a>
+            </div>
+        </div>
+
+        <div id="video">
+            <img src="./images/video.png" alt="something went wrong">
+            <img src="./images/play-button.png" alt="something went wrong" id="play-button">
+        </div>
+        <div class="map">
+            <span>Район на карте</span>
+            <img src="./images/map.png" alt="something went wrong">
+        </div>
+        <div class="question-form">
+            <span>Есть вопросы?</span>
+            <div class="text5">*Мы никому не передаем ваши данные. 
+                И не сохраняем ваш номер в базу.
+            </div>
+            <div>
+               <input type="text" placeholder="Ваше имя" id="yourname">
+               <input type="tel" placeholder="Ваш телефон" id="yourphone">
+               <a href="#" target="_blank"><img src="./images/watchdistrict.png" alt="something went wrong"></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <img src="./images/first-screen__logo.png" alt="something went wrong">
+        <div class="middle-footer1">
+            <ul>
+                <li><a href="#" target="_blank" class="footer-link">О комплексе</a></li>
+                <li><a href="#" target="_blank" class="footer-link">Район</a></li>
+                <li><a href="#" target="_blank" class="footer-link">Каталог квартир</a></li>
+                <li><a href="#" target="_blank" class="footer-link">Ипотека</a></li>
+                <li><a href="#" target="_blank" class="footer-link">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="middle-footer">
+            <ul>
+                <li><a href="#" target="_blank" class="footer-link">О комплексе</a></li>
+                <li><a href="#" target="_blank" class="footer-link">Район</a></li>
+                <li><a href="#" target="_blank" class="footer-link">Каталог квартир</a></li>
+                <li><a href="#" target="_blank" class="footer-link">Ипотека</a></li>
+                <li><a href="#" target="_blank" class="footer-link">Контакты</a></li>
+            </ul>
+        </div>
+        <img src="./images/footer__col3.png" alt="something went wrong">
+    </footer>
+    
+</body>
+</html>
